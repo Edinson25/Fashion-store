@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.alto-100{
+    height: 100vh;
+}
+
+.image-principal{
+    height: 100vh !important;
+}
+
+.title{
+    font-size: 60px;
+    letter-spacing: 25px;
+    font-weight: 100;
+}
+
+.title-2{
+    font-weight: 500;
+}
+
+.form-control{
+    border-radius: 30px 0px 0px 30px !important;
+    height: 50px;
+}
+
+.form-control::placeholder{
+    color: hsl(0, 36%, 70%) !important;
+}
+
+.font-pink{
+    color: hsl(0, 36%, 70%);
+}
+
+.fondo{
+    background-image: url("../img/hero-desktop.jpg");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+
+.fondo-responsive{
+    background-image: url("../img/hero-mobile.jpg");
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    
+}
+
+.background{
+    background: url("../img/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.combo {
+	display: flex;
+}
+
+.combo-txt:focus, .combo-txt:focus ~ * {
+	outline: none;
+}
+.combo-btn {
+	font: inherit;
+	line-height: 1.5;
+	padding: 0;
+	border-radius:0px 30px 30px 0px ;
+	padding: 0 0.9em;
+    background: linear-gradient(to left,hsl(0, 74%, 74%), hsl(0, 80%, 86%));
+    color: #fff;
+    border: none;
+}
+
+@media (max-width: 991px){
+    .title {
+        font-size: 45px;
+        letter-spacing: 10px;
+    }
+}

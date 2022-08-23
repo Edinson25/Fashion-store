@@ -45,7 +45,7 @@
     background-image: url("../img/hero-mobile.jpg");
     background-size: 100% 300px;
     background-repeat: no-repeat;
-    
+    height: 38vh;
 }
 
 .background{
